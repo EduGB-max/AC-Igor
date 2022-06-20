@@ -2,7 +2,9 @@
 
 class Restaurante{
     
-    cardapio(nome, Ingredientes, Acompanhamentos){
+    cardapio(numeros,nome, Ingredientes, Acompanhamentos){
+        
+    this.numeros=[Um,Dois,Três],
     this.nome = nome;     
     this.Ingredientes = Ingredientes;
     this.Acompanhamentos = Acompanhamentos;
