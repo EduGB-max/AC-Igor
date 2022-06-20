@@ -1,10 +1,14 @@
 
 
-var restaurante={
-Lanches: [Um,Dois,Três],
-Acompanhamentos:[batatas,'Bebida', 'Fruta'],
-}
+class Restaurante{
+    
+    cardapio(nome, Ingredientes, Acompanhamentos){
+    this.nome = nome;     
+    this.Ingredientes = Ingredientes;
+    this.Acompanhamentos = Acompanhamentos;
 
+}
+}
 
 var Um = {
     nome: 'Mc Lanche Alegre',
